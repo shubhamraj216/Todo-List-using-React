@@ -1,0 +1,18 @@
+.inpbut {
+  padding: 5px;
+  border: 0;
+  font-size: small;
+}
+.NewTodoForm button {
+  background: rgb(245, 81, 81);
+  height: 3rem;
+  color: whitesmoke;
+  width: 5rem;
+}
+.NewTodoForm input {
+  height: 2rem;
+  width: 18rem;
+}
+.NewTodoForm {
+  display: flex;
+}

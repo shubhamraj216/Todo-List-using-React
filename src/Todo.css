@@ -1,0 +1,30 @@
+button {
+  float: right;
+  background: rgb(245, 81, 81);
+  color: whitesmoke;
+}
+.Todo {
+  height: 2em;
+  padding: 1em;
+  list-style-type: none;
+  margin: 0;
+  width: 70%;
+  word-wrap: break-word;
+}
+.Todo:hover {
+  background: rgba(245, 126, 126, 0.575);
+}
+.completed {
+  color: lightgrey;
+  text-decoration: line-through;
+}
+.TodoForm button {
+  background: rgb(245, 81, 81);
+  height: 3em;
+  color: whitesmoke;
+  width: 5rem;
+}
+.TodoForm input {
+  height: 2rem;
+  width: 18rem;
+}
